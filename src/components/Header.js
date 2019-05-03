@@ -4,13 +4,13 @@ import PropTypes from 'prop-types'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <span className="icon fa-coffee"></span>
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Coditorei</h1>
+                <p>Die Coditorei ist der frisch gegründete Digitaldienstleister hinter <br />
+                    dem Berliner B2B-Urgestein <a href="https://obeta.de" target="__blank">Obeta electro</a></p>
             </div>
         </div>
         <nav>
